@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const cors = require("cors");
 const app = express();
-const PORT = process.env.PORT;
+const PORT = 8000;
 
 app.use(
   morgan(":method :url :status :res[content-length] - :response-time ms :body")

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const url = process.env.MONGODB_URI
+const url = "mongodb+srv://cluster0.j8yprqx.mongodb.net/myFirstDatabase";
 
 mongoose.connect(url,{
   useNewUrlParser: true,
