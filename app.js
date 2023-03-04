@@ -18,7 +18,7 @@ app.use("/api", require("./routes/auth"));
 app.use("/api", require("./routes/contact"));
 
 // server configurations.
-const PORT = process.env.PORT || 8000;
+const PORT = 8000;
 app.listen(PORT, () => {
   connectDB();
   console.log(`server listening on port: ${PORT}`);
